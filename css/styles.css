@@ -1,0 +1,410 @@
+/* font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3
+{
+    font-family: "Montserrat-Bold", sans-serif;
+}
+
+h2,h3
+{
+    color:#251F83;
+}
+
+p,h4
+{
+    color: #737373;
+}
+
+.font-awesome
+{
+    color: #00B4F8;
+}
+
+/*Fading In Animation Classes*/
+.fade-in
+{
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-in.appear
+{
+  opacity: 1;
+}
+
+/*Slide in*/
+.from-left
+{
+    transform: translateX(-50%);
+}
+
+.from-right
+{
+  transform: translateX(50%);
+}
+
+.from-left,.from-right
+{
+  transition: opacity 400ms ease-in, transform 400ms ease-in;
+  opacity: 0;
+}
+
+.from-left.appear,
+.from-right.appear
+{
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* Parallax BG */
+
+.parallax
+{
+  /* The image used */
+  background-image: url("http://www.thesocialnet.in/InfoIntellect/pics/bg9.jpg");
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.color-highlight-light
+{
+    color: #00FFFD;
+}
+
+.title-headings
+{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid
+{
+    padding: 3% 15% 7%;
+}
+
+/* Title*/
+#title
+{
+    color: white;
+}
+
+/* Navbar */
+
+.navbar
+{
+    padding: 0 0 4.5rem;
+
+}
+
+.navbar-brand
+{
+    font-size: 3rem;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light",sans-serif;
+    color: white;
+
+}
+
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.request-btn1
+{
+    margin: 6% 3% 5% 0;
+    color: white;
+    border-color: white;
+}
+
+.request-btn1:hover
+{
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.title-img
+{
+    width: 80%;
+    height: 80%;
+}
+
+.main-heading
+{
+    font-size: 3.5rem;
+    line-height: 1.2;
+    font-weight: 900;
+}
+
+/* Counters */
+#counters
+{
+    background-color: white; /* For browsers that do not support gradients */
+
+}
+
+.counters-container
+{
+    padding: 7% 15% 3% 15%;
+    text-align: center;
+}
+
+
+/* Features */
+
+#features
+{
+    background-color: white; /* For browsers that do not support gradients */
+
+}
+
+.features-container
+{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.features-item h3
+{
+    padding-top: 2%;
+    line-height: 1.5;
+}
+.features-item
+{
+    padding-top: 2%;
+}
+
+.features-medium-heading
+{
+    font-size: 2.0rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+
+/*testimonials */
+#testimonials
+{
+    text-align: center;
+    color: #fff;
+}
+
+#testimonials h2
+{
+    padding-bottom: 7%;
+    color: white;
+}
+
+#testimonials h3
+{
+   color: white;
+}
+
+.btn-dark.service-btn
+{
+  background-color: #251F83;
+}
+
+.btn-dark.service-btn:hover
+{
+  border-color: white;
+}
+
+.btn-outline-dark.service-btn
+{
+  border-color: #251F83;
+  color: #251F83;
+}
+
+.btn-outline-dark.service-btn:hover
+{
+  background-color:#251F83;
+  color: white;
+}
+
+/*services*/
+#services
+{
+    text-align: center;
+    background-color: #fff;
+}
+
+.services-col
+{
+    padding: 3% 1%;
+}
+
+.card
+{
+    border-color:#251F83;
+}
+
+/*footer*/
+
+#footer
+{
+    text-align: center;
+    color: white;
+}
+
+.footer-container
+{
+    padding: 1% 25% 1%;
+}
+
+#footer a
+{
+    text-decoration: none;
+    color: white;
+}
+
+#footer a:hover
+{
+    font-weight: bolder;
+}
+
+@media (max-width:1028px)
+{
+
+    p
+    {
+        font-size: 2.5rem;
+    }
+    .container-fluid
+    {
+        padding: 4% 10% 8%;
+    }
+
+    .navbar-toggler-icon
+    {
+        width: 60px;
+        height: 80px;
+    }
+
+    .main-heading
+    {
+        padding: 10% 0;
+    }
+    .title-img
+    {
+        width: 80%;
+        height: 80%;
+    }
+
+    .btn-lg
+    {
+        padding: 10px 20px;
+        font-size: 30px;
+        border-radius: 10px;
+        width:50%;    //Specify your width here
+    }
+
+    .main-heading
+    {
+        font-size: 6rem;
+    }
+
+    .navbar-brand
+    {
+        font-size: 4.5rem;
+    }
+
+    .nav-link
+    {
+        font-size: 2.5rem;
+    }
+
+    .features-medium-heading
+    {
+        font-size: 3.5rem;
+        font-weight: bold;
+        line-height: 1.5;
+    }
+
+    .font-awesome
+    {
+        font-size: 2.0rem;
+    }
+
+    .features-item
+    {
+        padding: 7% 10%;
+    }
+
+    .title-headings
+    {
+        font-size: 4.5rem;
+        font-weight: bold;
+        line-height: 1.5;
+        padding: 2% 0;
+    }
+
+    em
+    {
+        font-size: 1.7rem;
+    }
+
+    .services-col
+    {
+        padding: 3% 0;
+    }
+
+    .service-btn
+    {
+        margin: 5% 0;
+    }
+
+    .service-para
+    {
+        padding-bottom: 5%;
+    }
+
+    a
+    {
+        font-size: 2.0rem;
+    }
+
+    /*Slide in*/
+    .from-left
+    {
+        transform: translateX(0);
+    }
+
+    .from-right
+    {
+      transform: translateX(0);
+    }
+
+    .from-left,.from-right
+    {
+      transition: opacity 400ms ease-in;
+      opacity: 1;
+    }
+
+    .from-left.appear,
+    .from-right.appear
+    {
+      opacity: 1;
+    }
+
+}
