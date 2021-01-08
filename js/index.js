@@ -8,7 +8,7 @@ const countUp_2 = new CountUp('number2',0,2000,0,3); //CountUp(id,startval,endva
 const countUp_3 = new CountUp('number3',0,3040,0,3);
 
 const appearOptions = {
-  threshold: 0.40, //45% of the screen should be in vieport to fade in
+  threshold: 0.30, //45% of the screen should be in vieport to fade in
   rootMargin: "0px 0px -30px 0px" //reduce viewport size
 };
 
